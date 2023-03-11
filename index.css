@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.head-text{
+    color: white;
+    }
+    body{
+     font-family: arial black;
+     text-transform: uppercase;
+     background-color: black;
+     
+    }
+header{
+    background-color: blue;
+    position: relative;
+    top: 2;
+    /* width: 100%; */
+    text-align:center;
+    /* padding: 20px; */
+   border-bottom: 2px solid pink;;
+    /* border-radius: 15px; */
+    text-shadow: 10px 10px 10px black;
+    margin: 0px 25px 0px 25px;
+    }
+body{
+    /* background-image: url(./Images/rabbit-bg.jpg); */
+    background-image: url(https://img.freepik.com/premium-photo/year-rabbit-2023_692702-5803.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+main{
+    margin-top: 30px;
+    }
+
+.calendar{
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    }
+
+.days,
+.dates{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    list-style-type: none;
+    /* gap:3px; */
+    /* margin:5px; */
+    }
+   
+.month{
+    border-style: inset;
+    border-color: red purple  pink  blue;    
+    text-align:center;
+    border-radius: 5px;
+    height: 300px;
+    padding: 0px 3px 0px 3px ;
+    }
+
+.month h1{
+      background-color: blue;
+      color: white;
+      text-align:center;
+      padding: 5px;
+      border-radius: 15px;
+      font-weight: normal;
+      box-shadow: 9px 9px 9px pink;
+      text-shadow: 10px 10px 10px black;
+      border: 5px solid black;
+      font-size: 24px;
+     }
+li{
+     background-color: white;
+     border: 3px solid black;
+     padding: 5px;
+     text-align:center;
+     border-radius: 10px;
+     font-weight: bold;
+     font-size: 12px;
+     }
+li:hover{
+     background: purple;
+     color: whitesmoke;
+     opacity: 0.7;
+     
+     }
+li:nth-child(7n+1){
+     color: red;
+     }
+li:nth-child(7n+0){
+      color: blue;
+     }
+
+footer{
+        background-color: blue;
+        position: relative;
+        top: 2px;
+        text-align:center;
+        border-bottom: 2px solid blue;;
+        text-shadow: 10px 10px 10px black;
+        }
+.foot-text{
+    color: white;
+    font-size: 20px;
+}
+
+.foot-link{
+    color: white;
+    font-size: 20px;
+}
+a:link {
+    text-decoration: none;
+    
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    color: pink;
+  }
+  
+  a:active {
+    color: red;
+  }
